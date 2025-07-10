@@ -37,5 +37,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_flounder
+PRODUCT_DEVICE := flounder
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
