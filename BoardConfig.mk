@@ -108,7 +108,7 @@ WIFI_DRIVER_FW_PATH_AP      := "/vendor/firmware/fw_bcmdhd_apsta.bin"
 BOARD_SEPOLICY_DIRS += device/htc/flounder/sepolicy
 
 TARGET_USES_64_BIT_BCMDHD := true
-TARGET_USES_64_BIT_BINDER := true
+# TARGET_USES_64_BIT_BINDER := true
 
 BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 1
 
@@ -127,7 +127,7 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 MALLOC_SVELTE := true
 
 # Forcebly use the non-open-source parts
-include vendor/htc/flounder-common/BoardConfigVendor.mk
+# include vendor/htc/flounder-common/BoardConfigVendor.mk
 ifeq ($(TARGET_PRODUCT),lineage_flounder_lte)
 include vendor/htc/flounder_lte/BoardConfigVendor.mk
 else
